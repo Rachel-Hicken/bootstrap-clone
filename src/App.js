@@ -6,8 +6,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <div className='header'>
-            <div className='logo'></div>
+        <nav>
+          <div className="content">
+            <div className='logo'>Bootstrap</div>
             <div className='pageNames'>
                 <ul>
                     <li>SERVICES</li>
@@ -17,7 +18,8 @@ class App extends Component {
                     <li>CONTACT</li>            
                 </ul>
             </div>
-        </div>
+          </div>
+        </nav>
       </div>
     );
   }
